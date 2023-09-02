@@ -65,7 +65,7 @@ class _ThirdAnimationState extends State<ThirdAnimation>
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 3',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

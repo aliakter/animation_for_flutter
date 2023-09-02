@@ -67,7 +67,7 @@ class _NineAnimationState extends State<NineAnimation>
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 9',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

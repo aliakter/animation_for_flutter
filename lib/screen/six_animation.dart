@@ -55,7 +55,7 @@ class _SixAnimationState extends State<SixAnimation> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 6',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

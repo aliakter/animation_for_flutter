@@ -162,7 +162,7 @@ class _SecondAnimationState extends State<SecondAnimation>
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 2',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

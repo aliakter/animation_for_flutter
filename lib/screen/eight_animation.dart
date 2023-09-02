@@ -18,13 +18,20 @@ class _EightAnimationState extends State<EightAnimation> {
     return MyDrawer(
       drawer: Material(
         child: Container(
-          color: Colors.blue,
+          color: Colors.teal,
           child: ListView.builder(
             padding: EdgeInsets.only(left: 100.w, top: 30.h),
             itemCount: 20,
             itemBuilder: (context, index) {
               return ListTile(
-                title: Text('Subject $index'),
+                onTap: () {},
+                title: Text(
+                  'Animation $index',
+                  style: TextStyle(
+                    fontSize: 15.sp,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
               );
             },
           ),
@@ -37,7 +44,7 @@ class _EightAnimationState extends State<EightAnimation> {
           backgroundColor: Theme.of(context).colorScheme.inversePrimary,
           title: Center(
             child: Text(
-              'Animation Flutter',
+              'Drawer Animation Flutter 8',
               style: TextStyle(
                 fontSize: 18.sp,
                 fontWeight: FontWeight.bold,

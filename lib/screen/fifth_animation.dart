@@ -26,7 +26,7 @@ class _FifthAnimationState extends State<FifthAnimation> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 5',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

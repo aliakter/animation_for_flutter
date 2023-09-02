@@ -1,4 +1,4 @@
-import 'package:animation_for_flutter/screen/people_details_screen.dart';
+import 'package:animation_for_flutter/usecase/people_details_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../model/person.dart';
@@ -21,7 +21,7 @@ class _FourAnimationState extends State<FourAnimation> {
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'People Animation',
+            'People Animation Flutter 4',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,

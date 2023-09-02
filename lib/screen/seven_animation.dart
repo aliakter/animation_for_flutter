@@ -130,7 +130,7 @@ class _SevenAnimationState extends State<SevenAnimation>
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
         title: Center(
           child: Text(
-            'Animation Flutter',
+            'Animation Flutter 7',
             style: TextStyle(
               fontSize: 18.sp,
               fontWeight: FontWeight.bold,
