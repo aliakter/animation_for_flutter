@@ -156,7 +156,6 @@ class _SecondAnimationState extends State<SecondAnimation>
       );
 
     return Scaffold(
-      backgroundColor: Colors.black,
       appBar: AppBar(
         elevation: 0,
         toolbarHeight: 50.h,
@@ -254,7 +253,6 @@ class _SecondAnimationState extends State<SecondAnimation>
         },
         icon: Icon(
           Icons.arrow_forward,
-          color: Colors.white,
           size: 25.w,
         ),
       ),

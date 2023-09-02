@@ -33,7 +33,6 @@ class _HomeScreenState extends State<HomeScreen>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.black,
       appBar: AppBar(
         elevation: 0,
         toolbarHeight: 50.h,
@@ -98,7 +97,6 @@ class _HomeScreenState extends State<HomeScreen>
         },
         icon: Icon(
           Icons.arrow_forward,
-          color: Colors.white,
           size: 25.w,
         ),
       ),
